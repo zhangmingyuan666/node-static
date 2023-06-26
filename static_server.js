@@ -28,7 +28,7 @@ const server = http.createServer((req, res) => {
   }
 });
 
-const port = 8888;
+const port = 7000;
 
 server.listen(port, () => {
   console.log("success");
